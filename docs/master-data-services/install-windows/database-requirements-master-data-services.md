@@ -29,7 +29,11 @@ manager: craigg
 ### SQL Server Edition  
  The [!INCLUDE[ssMDSshort](../../includes/ssmdsshort-md.md)] database can be hosted on the following editions of [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)]:  
   
- 
+
+-   [!INCLUDE[ssSQL17](../../includes/sssql17-md.md)] Enterprise (64-bit) x64  
+  
+-   [!INCLUDE[ssSQL17](../../includes/sssql17-md.md)] Developer (64-bit) x64  
+   
 -   [!INCLUDE[ssSQL15](../../includes/sssql15-md.md)] Enterprise (64-bit) x64  
   
 -   [!INCLUDE[ssSQL15](../../includes/sssql15-md.md)] Developer (64-bit) x64  
