@@ -28,7 +28,7 @@ manager: kfile
 |**ID**|Specifies the identifier of the object.|  
 |**IgnoreUnrelatedDimensions**|Determines whether unrelated dimensions are forced to their top level when members of dimensions that are unrelated to the measure group are included in a query. Default setting is **True**.|  
 |**Name**|Name of the measure. This property is read-only.|  
-|**ProactiveCaching**|Configurable error handling settings for handling of duplicate keys, unknown keys, null keys, error limits, action upon error detection, and the error log file.|  
+|**ProactiveCaching**|Proactive caching provides automatic MOLAP cache creation and management for OLAP objects. The cubes immediately incorporate changes that are made to the data in the database, based upon notifications received from the database. The goal of proactive caching is to provide the performance of traditional MOLAP, while retaining the immediacy and ease of management offered by ROLAP.|  
 |**ProcessingMode**|Indicates whether indexing and aggregating should occur during or after processing. Options are Regular and LazyAggregations. LazyAggregations can be used to run aggregation as a background task.|  
 |**ProcessingPriority**|Determines the processing priority of the cube during background operations, such as lazy aggregations and indexing. The default value is **0**.|  
 |**StorageLocation**|The file system storage location for the measure group. If none is specified, the location is inherited from the cube that contains the measure group.|  
